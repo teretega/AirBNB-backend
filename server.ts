@@ -1,3 +1,5 @@
+import dotenv from 'dotenv'
+dotenv.config()
 import express, {Request, Response} from 'express'
 import cors from 'cors'
 import compression from 'compression'
